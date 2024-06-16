@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tree-container {
+    text-align: center;
+}
+
+.tree {
+    background-image: url('tree.jpg');
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.apple {
+    width: 100px;
+    height: 90px;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    padding: 0;
+}
+
+.apple img {
+    width: 100%;
+    height: 100%;
+}
+
+.option-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+#option1 { top: 80px; left: 170px; }
+#option2 { top: 80px; right: 220px; }
+#option3 { bottom: 150px; left: 170px; }
+#option4 { bottom: 150px; right: 220px; }
+
+.sentence-container {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.blank {
+    display: inline-block;
+    width: 100px;
+    border-bottom: 2px solid black;
+}
+
+
+.popup {
+    position: fixed;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    z-index: 1000;
+}
+
+.popup img {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    border-radius: 10px;
+}

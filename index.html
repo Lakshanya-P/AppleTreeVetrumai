@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil Vetrumai Urubu Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tree-container">
+        <div class="tree">
+            <button class="apple" id="option1" onclick="selectAnswer(this)">
+                <img src="apple.png" alt="Apple"><span class="option-text"></span>
+            </button>
+            <button class="apple" id="option2" onclick="selectAnswer(this)">
+                <img src="apple.png" alt="Apple"><span class="option-text"></span>
+            </button>
+            <button class="apple" id="option3" onclick="selectAnswer(this)">
+                <img src="apple.png" alt="Apple"><span class="option-text"></span>
+            </button>
+            <button class="apple" id="option4" onclick="selectAnswer(this)">
+                <img src="apple.png" alt="Apple"><span class="option-text"></span>
+            </button>
+        </div>
+        <div class="sentence-container">
+            <p id="sentence">நான் பள்ளி <span class="blank" id="blank"></span> போகிறேன்.</p>
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <img id="gifImage" src="" alt="Popup GIF">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
